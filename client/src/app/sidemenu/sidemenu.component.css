@@ -1,0 +1,15 @@
+.lft_menu{ position: fixed; background-color: #000; width: 250px; z-index: 1020; min-height: 100%;  height: calc(100vh-50px);
+    margin: -75px 0px 0px 0px;
+}
+.lft_menu ul{ list-style: none; padding: 0px; margin: 0px;}
+.lft_menu ul li{ display: block; color: #fff;}
+.lft_menu ul li a{ color: #fff; text-decoration: none; padding: 12px 25px; display: block;}
+.cbk_logo{ position: relative;}
+.cbk_logo:after{ content: ""; position: absolute; width: 100%; height: 3px; bottom: 0; left: 0; right: 0;
+background: #259dd0; 
+background: -moz-linear-gradient(left, #259dd0 0%, #162448 100%);
+background: -webkit-linear-gradient(left, #259dd0 0%,#162448 100%);
+background: linear-gradient(to right, #259dd0 0%,#162448 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#259dd0', endColorstr='#162448',GradientType=1 ); 
+}
+.cbk_logo > img{ padding: 30px 20px; max-width: 140px; display: block; margin: 0px 0px;}

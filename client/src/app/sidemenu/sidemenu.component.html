@@ -1,0 +1,6 @@
+<aside class="lft_menu" [style.background-image] = "'url(\'assets/images/bg.png\')'">
+  <figure class="cbk_logo"><img [src]="logoBg" width="100%" alt="logo" title="logo"></figure>
+  <ul>
+    <li *ngFor="let item of menuList"><a [routerLink]="[item]">{{item}}</a></li>
+  </ul>
+</aside>
