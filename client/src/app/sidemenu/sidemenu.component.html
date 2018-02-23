@@ -1,5 +1,8 @@
 <aside class="lft_menu" [style.background-image] = "'url(\'assets/images/bg.png\')'">
-  <figure class="cbk_logo"><img [src]="logoBg" width="100%" alt="logo" title="logo"></figure>
+  <figure class="cbk_logo"><img [src]="logoBg" width="100%" alt="logo" title="logo">
+    <span class="profile_use">Welcome Gunti Anjaneyulu Sagar</span>
+  </figure>
+  
   <ul>
     <li *ngFor="let item of menuList"><a [routerLink]="[item]">{{item}}</a></li>
   </ul>

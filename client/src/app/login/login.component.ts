@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'Login',
@@ -7,13 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  
-  constructor() { 
-    
+  logoBg : String;
+  showSideMenu : boolean;
+  constructor(private route : Router) { 
+    this.logoBg = "assets/images/logo-trans.png";
+    this.showSideMenu = false;
   }
 
   ngOnInit() {
   }
  
+  takeMeDashboard(){
+    this.route.navigate(['/', 'Dashboard']);
+  }
 
 }
