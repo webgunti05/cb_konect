@@ -1,2 +1,178 @@
-<!-- <Topheader></Topheader>
-<Sidemenu></Sidemenu> -->
+<div class="container-fluid lft_cont">
+        <div class="col-xs-12 col-lg-12 mid_area">
+            <div class="row">
+                    <div class="card">
+                            <div class="card-header">
+                             List of Members
+                            </div>
+                            <div class="card-block">
+                              <div class="List of Members">
+                                <table class="table table-bordered table-striped mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th>
+                                        ID
+                                      </th>
+                                      <th>
+                                        User Name
+                                      </th>
+                                      <th class="numeric">
+                                        Full Name
+                                      </th>
+                                      <th class="numeric">
+                                        Email
+                                      </th>
+                                      <th class="numeric">
+                                        Phone
+                                      </th>
+                                      <th class="numeric">
+                                        Member Since
+                                      </th>
+                                      <th class="numeric">
+                                        Last Active
+                                      </th>
+                                      <th class="numeric">
+                                        Spent $
+                                      </th>
+                                      <th class="numeric">
+                                        Status 
+                                      </th>
+                                      <th>Actions</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td data-title="ID">
+                                        001
+                                      </td>
+                                      <td data-title="User Name">
+                                        Meena
+                                      </td>
+                                      <td data-title="Full Name">
+                                        Karam Meena
+                                      </td>
+                                      <td data-title="Email">
+                                        meena@indoztechsol.com
+                                      </td>
+                                      <td data-title="Phone" class="numeric">
+                                        8451258565
+                                      </td>
+                                      <td data-title="Member Since">
+                                        01-01-2018
+                                      </td>
+                                      <td data-title="Last Active">
+                                        01-02-2018
+                                      </td>
+                                      <td data-title="Spent $" class="numeric">
+                                        $1.38
+                                      </td>
+                                      <td data-title="Status">
+                                        <label class="switch">
+                                          <input type="checkbox">
+                                          <span class="slider round"></span>
+                                        </label>
+                                      </td>
+                                      <td class="gear_icn">
+                                        <span (click)="showPopActionsOne()"><i class="fas fa-cog gric"></i></span>
+                                        <div class="pop_actions" *ngIf="showActionsOne" id="one">
+                                          <p>View Profile</p>
+                                          <p>Reset Password</p>
+                                          <p>Timeline</p>
+                                          <p>Transactions</p>
+                                          <span class="closer" (click)="hidePopActions()">Close <i class="fas fa-times"></i></span>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td data-title="Member ID">
+                                        002
+                                      </td>
+                                      <td data-title="User Name">
+                                        Praneeth
+                                      </td>
+                                      <td data-title="Full Name">
+                                        Praneeth Vadloori
+                                      </td>
+                                      <td data-title="Email">
+                                        praneeth@indoztechsol.in
+                                      </td>
+                                      <td data-title="Phone" class="numeric">
+                                        8479652301
+                                      </td>
+                                      <td data-title="Member Since">
+                                        01-02-2018
+                                      </td>
+                                      <td data-title="Last Active">
+                                        02-02-2018
+                                      </td>
+                                      <td data-title="Spent $" class="numeric">
+                                        $2.11
+                                      </td>
+                                      <td data-title="Status">
+                                        <label class="switch">
+                                          <input type="checkbox">
+                                          <span class="slider round"></span>
+                                        </label>
+                                      </td>
+                                      <td class="gear_icn">
+                                        <span (click)="showPopActionsTwo()"><i class="fas fa-cog gric"></i></span>
+                                        <div class="pop_actions" *ngIf="showActionsTwo" id="two">
+                                          <p>View Profile</p>
+                                          <p>Reset Password</p>
+                                          <p>Timeline</p>
+                                          <p>Transactions</p>
+                                          <span class="closer" (click)="hidePopActions()">Close <i class="fas fa-times"></i></span>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td data-title="Member ID">
+                                        003
+                                      </td>
+                                      <td data-title="User Name">
+                                        Anji
+                                      </td>
+                                      <td data-title="Full Name">
+                                        Anji Gunti
+                                      </td>
+                                      <td data-title="Email">
+                                        anj@indoztechsol.in
+                                      </td>
+                                      <td data-title="Phone" class="numeric">
+                                        8479656230
+                                      </td>
+                                      <td data-title="Member Since">
+                                        01-02-2018
+                                      </td>
+                                      <td data-title="Last Active">
+                                        02-02-2018
+                                      </td>
+                                      <td data-title="Spent $" class="numeric">
+                                        $3.43
+                                      </td>
+                                      <td data-title="Status">
+                                        <label class="switch">
+                                          <input type="checkbox">
+                                          <span class="slider round"></span>
+                                        </label>
+                                      </td>
+                                      <td class="gear_icn">
+                                        <span (click)="showPopActionsThree()"><i class="fas fa-cog gric"></i></span>
+                                        <div class="pop_actions" *ngIf="showActionsThree" id="three">
+                                          <p>View Profile</p>
+                                          <p>Reset Password</p>
+                                          <p>Timeline</p>
+                                          <p>Transactions</p>
+                                          <span class="closer" (click)="hidePopActions()">Close <i class="fas fa-times"></i></span>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                          
+              </div>
+        </div>
+      </div>

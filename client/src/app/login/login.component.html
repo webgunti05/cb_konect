@@ -1,14 +1,13 @@
 
-<Sidemenu *ngIf="showSideMenu"></Sidemenu>
-<div class="container-fluid lg_wrapper" [style.background-image]="'url(\'assets/images/lgbr.jpg\')'">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<div class="container-fluid lg_wrapper" [style.background-image]="'url(\'assets/images/unsplash/bg1.jpg\')'">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopad">
         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7"></div>
 
           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 rht_form">
             <div class="form rht_forminnre">
-                <figure class="lgr_logo"><img [src]="logoBg" width="100%" alt="logo" title="logo">
-                 
-                </figure>
+                <figure class="lgr_logo"><img [src]="logoBg" width="100%" alt="logo" title="logo"></figure>
+                <h4 class="sgn_hdng">SIGN IN TO YOUR ACCOUNT</h4>
               <form action="/action_page.php" name="myform">
                 <div class="form-group">
                   <label for="email">Email address:</label>
@@ -17,11 +16,14 @@
                 <div class="form-group">
                   <label for="pwd">Password:</label>
                   <input type="password" class="form-control" id="pwd" placeholder="Password">
+                  
                 </div>
+                <small class="smlfnter">Recover Password</small>
                 <div class="checkbox">
                   <label><input type="checkbox"> Remember me</label>
+                  <button type="submit" class="btn btn-default lgnbtn" (click)="takeMeDashboard()">Login</button>
                 </div>
-                <button type="submit" class="btn btn-default" (click)="takeMeDashboard()">Submit</button>
+                
               </form>
             </div>
           </div>

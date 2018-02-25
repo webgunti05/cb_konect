@@ -1,5 +1,5 @@
-.lg_wrapper{  padding: 0px; margin: 0px; background-size: 100% auto; background-repeat: no-repeat; position: relative;
-   height: 100vh;
+.lg_wrapper{  padding: 0px; margin: 0px; background-size: 100% auto; background-repeat: no-repeat; position: fixed;
+   height: 100vh; width: 100%; z-index: 10000; left: 0; right: 0; top: 0; bottom: 0;
 }
 .rht_form{ position: relative; height: 100vh; background-color: #fff;}
 .rht_forminnre{  position: absolute; top: 50%; left: 50%; 
@@ -7,7 +7,17 @@
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%); width: 75%;
 }
-.lgr_logo{ max-width: 150px; margin: 0px auto 20px auto; height: 150px; padding: 30px;
-    box-sizing: border-box; background-color: #000; border-radius: 100%; display: block;
+.lgr_logo{ max-width: 130px; margin: 0px auto 20px auto; padding: 0px;
+    box-sizing: border-box; border-radius: 100%; display: block;
 }
+.nopad{ padding: 0px;}
+.sgn_hdng{ text-align: center; padding-bottom: 25px;}
+
+.lgnbtn {
+    background: #259dd0;
+    float: right; width: 93px; height: 33px;
+    outline: none; color: #fff; text-transform: uppercase;
+    border: none; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
+}
+.smlfnter{ color: #259dd0; padding: 10px 0px;}
 
